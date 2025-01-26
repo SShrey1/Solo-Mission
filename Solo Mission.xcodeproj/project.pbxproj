@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		533DBFC12D44CA5A0042F618 /* THEBOLDFONT-FREEVERSION.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 533DBFBC2D44CA570042F618 /* THEBOLDFONT-FREEVERSION.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		533DBFA02D42C76F0042F618 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,11 @@
 		533DBF862D42C76C0042F618 /* Solo Mission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solo Mission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533DBF9F2D42C76F0042F618 /* Solo MissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solo MissionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533DBFA92D42C76F0042F618 /* Solo MissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solo MissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533DBFBC2D44CA570042F618 /* THEBOLDFONT-FREEVERSION.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THEBOLDFONT-FREEVERSION.ttf"; sourceTree = "<group>"; };
+		533DBFBD2D44CA580042F618 /* THEBOLDFONT-FREEVERSION.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THEBOLDFONT-FREEVERSION.woff"; sourceTree = "<group>"; };
+		533DBFBE2D44CA580042F618 /* THE BOLD FONT - LICENSE.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "THE BOLD FONT - LICENSE.rtf"; sourceTree = "<group>"; };
+		533DBFBF2D44CA580042F618 /* THE-BOLD-FONT---VISUAL---PRO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "THE-BOLD-FONT---VISUAL---PRO.png"; sourceTree = "<group>"; };
+		533DBFC02D44CA590042F618 /* THEBOLDFONT-FREEVERSION.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THEBOLDFONT-FREEVERSION.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +84,11 @@
 		533DBF7D2D42C76C0042F618 = {
 			isa = PBXGroup;
 			children = (
+				533DBFBE2D44CA580042F618 /* THE BOLD FONT - LICENSE.rtf */,
+				533DBFBF2D44CA580042F618 /* THE-BOLD-FONT---VISUAL---PRO.png */,
+				533DBFC02D44CA590042F618 /* THEBOLDFONT-FREEVERSION.otf */,
+				533DBFBC2D44CA570042F618 /* THEBOLDFONT-FREEVERSION.ttf */,
+				533DBFBD2D44CA580042F618 /* THEBOLDFONT-FREEVERSION.woff */,
 				533DBF882D42C76C0042F618 /* Solo Mission */,
 				533DBFA22D42C76F0042F618 /* Solo MissionTests */,
 				533DBFAC2D42C76F0042F618 /* Solo MissionUITests */,
@@ -212,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533DBFC12D44CA5A0042F618 /* THEBOLDFONT-FREEVERSION.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +412,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8TP4A8XK22;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Solo-Mission-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -427,6 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8TP4A8XK22;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Solo-Mission-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
